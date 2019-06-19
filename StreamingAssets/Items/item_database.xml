@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+<weapon>
+<weaponId>SwordRight</weaponId>
+<oh_idle>Idle</oh_idle>
+<th_idle>th_idle</th_idle>
+<action><ActionInput>0</ActionInput><ActionType>0</ActionType><targetAnim>oh_attack_1</targetAnim><mirror>False</mirror><canBackstab>False</canBackstab><canBeParried>True</canBeParried><overrideDamageAnim>False</overrideDamageAnim><overrideAnim></overrideAnim><physical>90</physical><strike>0</strike><slash>100</slash><thrust>0</thrust><magic>0</magic><fire>0</fire><lightning>0</lightning><dark>0</dark></action>
+<action><ActionInput>1</ActionInput><ActionType>0</ActionType><targetAnim>oh_attack_3</targetAnim><mirror>False</mirror><canBackstab>True</canBackstab><canBeParried>True</canBeParried><overrideDamageAnim>True</overrideDamageAnim><overrideAnim>damage 3</overrideAnim><physical>90</physical><strike>0</strike><slash>0</slash><thrust>140</thrust><magic>0</magic><fire>0</fire><lightning>0</lightning><dark>0</dark></action>
+<actionTwoHanded><ActionInput>0</ActionInput><ActionType>0</ActionType><targetAnim>th_attack_1</targetAnim><mirror>False</mirror><canBackstab>True</canBackstab><canBeParried>True</canBeParried><overrideDamageAnim>False</overrideDamageAnim><overrideAnim></overrideAnim><physical>200</physical><strike>0</strike><slash>0</slash><thrust>0</thrust><magic>0</magic><fire>0</fire><lightning>0</lightning><dark>0</dark></actionTwoHanded>
+<actionTwoHanded><ActionInput>1</ActionInput><ActionType>0</ActionType><targetAnim>th_attack_2</targetAnim><mirror>False</mirror><canBackstab>True</canBackstab><canBeParried>True</canBeParried><overrideDamageAnim>False</overrideDamageAnim><overrideAnim></overrideAnim><physical>200</physical><strike>0</strike><slash>0</slash><thrust>0</thrust><magic>0</magic><fire>0</fire><lightning>0</lightning><dark>0</dark></actionTwoHanded>
+<parryMultiplier>10</parryMultiplier>
+<backstabMultiplier>10</backstabMultiplier>
+<LeftHandMirror>False</LeftHandMirror>
+<model_position>(0.1, 0.0, 0.1)</model_position>
+<model_euler>(-1.3, 220.9, -3.4)</model_euler>
+<model_scale>(1.0, 1.0, 1.0)</model_scale>
+
+</weapon>
+
+<weapon>
+<weaponId>Shield</weaponId>
+<oh_idle>Idle</oh_idle>
+<th_idle>th_idle</th_idle>
+<action><ActionInput>0</ActionInput><ActionType>1</ActionType><targetAnim></targetAnim><mirror>False</mirror><canBackstab>False</canBackstab><canBeParried>False</canBeParried><overrideDamageAnim>False</overrideDamageAnim><overrideAnim></overrideAnim><physical>0</physical><strike>0</strike><slash>0</slash><thrust>0</thrust><magic>0</magic><fire>0</fire><lightning>0</lightning><dark>0</dark></action>
+<action><ActionInput>1</ActionInput><ActionType>3</ActionType><targetAnim>parry</targetAnim><mirror>False</mirror><canBackstab>False</canBackstab><canBeParried>False</canBeParried><overrideDamageAnim>False</overrideDamageAnim><overrideAnim></overrideAnim><physical>0</physical><strike>0</strike><slash>0</slash><thrust>0</thrust><magic>0</magic><fire>0</fire><lightning>0</lightning><dark>0</dark></action>
+<parryMultiplier>0</parryMultiplier>
+<backstabMultiplier>0</backstabMultiplier>
+<LeftHandMirror>True</LeftHandMirror>
+<model_position>(0.0, 0.0, 0.0)</model_position>
+<model_euler>(-19.6, -25.0, -44.9)</model_euler>
+<model_scale>(1.0, 1.0, 1.0)</model_scale>
+
+</weapon>
+
+<weapon>
+<weaponId>SwordLeft</weaponId>
+<oh_idle>Idle</oh_idle>
+<th_idle>th_idle</th_idle>
+<action><ActionInput>0</ActionInput><ActionType>0</ActionType><targetAnim>oh_attack_1</targetAnim><mirror>False</mirror><canBackstab>False</canBackstab><canBeParried>True</canBeParried><overrideDamageAnim>False</overrideDamageAnim><overrideAnim></overrideAnim><physical>90</physical><strike>0</strike><slash>100</slash><thrust>0</thrust><magic>0</magic><fire>0</fire><lightning>0</lightning><dark>0</dark></action>
+<action><ActionInput>1</ActionInput><ActionType>0</ActionType><targetAnim>oh_attack_3</targetAnim><mirror>False</mirror><canBackstab>True</canBackstab><canBeParried>True</canBeParried><overrideDamageAnim>True</overrideDamageAnim><overrideAnim>damage 3</overrideAnim><physical>90</physical><strike>0</strike><slash>0</slash><thrust>140</thrust><magic>0</magic><fire>0</fire><lightning>0</lightning><dark>0</dark></action>
+<actionTwoHanded><ActionInput>0</ActionInput><ActionType>0</ActionType><targetAnim>th_attack_1</targetAnim><mirror>False</mirror><canBackstab>True</canBackstab><canBeParried>True</canBeParried><overrideDamageAnim>False</overrideDamageAnim><overrideAnim></overrideAnim><physical>200</physical><strike>0</strike><slash>0</slash><thrust>0</thrust><magic>0</magic><fire>0</fire><lightning>0</lightning><dark>0</dark></actionTwoHanded>
+<actionTwoHanded><ActionInput>1</ActionInput><ActionType>0</ActionType><targetAnim>th_attack_2</targetAnim><mirror>False</mirror><canBackstab>True</canBackstab><canBeParried>True</canBeParried><overrideDamageAnim>False</overrideDamageAnim><overrideAnim></overrideAnim><physical>200</physical><strike>0</strike><slash>0</slash><thrust>0</thrust><magic>0</magic><fire>0</fire><lightning>0</lightning><dark>0</dark></actionTwoHanded>
+<parryMultiplier>10</parryMultiplier>
+<backstabMultiplier>10</backstabMultiplier>
+<LeftHandMirror>True</LeftHandMirror>
+<model_position>(-0.1, 0.0, -0.1)</model_position>
+<model_euler>(1.3, 220.9, -3.4)</model_euler>
+<model_scale>(1.0, 1.0, -1.0)</model_scale>
+
+</weapon>
+
+</root>
