@@ -2,4 +2,4 @@
 <br />
 <a href="/Soulslike">Soulslike</a>
 <br />
-<a href="https://danielvisser333.github.io/fishrambeta">Fishrambeta</a>
+<a href="https://fishrambeta/fishrambeta">Fishrambeta</a>
